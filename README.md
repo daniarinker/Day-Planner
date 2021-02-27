@@ -10,13 +10,6 @@
   <img alt="License" src="https://img.shields.io/github/license/daniarinker/day-planner?color=56BEB8">
 
 </p>
-
-<!-- Status -->
-
-<!-- <h4 align="center">
-	🚧  Day Planner 🚀 Under construction...  🚧
-</h4>
-
 <hr> -->
 
 <p align="center">
@@ -26,7 +19,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/daniarinker" target="_blank">Author</a>
 </p>
 
 <br>
@@ -34,12 +27,6 @@
 ## :dart: About
 
 Describe your project
-
-## :sparkles: Features
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies
 
@@ -49,7 +36,7 @@ The following tools were used in this project:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [VS Code](https://www.vscode.com/)
 
 ## :white_check_mark: Requirements
 
