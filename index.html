@@ -24,16 +24,109 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">"All in a Day" Scheduler</h1>
+      <p class="lead">The Way to Plan Your Day!</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+    <div class="container time"></div>
+      <div class="hand hourTime" data-hour-hand></div>
+<!-- Timeblocks go here -->
+      <container>
+        <div class="row" id="5pm">
+          <div class="col-md-2">
+            <h3 id="900" class="timeOfDay">9:00am</h3>
+          </div>
+        </div>
+      <div class="col-md-8" id="textbox-9">
+        <Textarea class="text-box" id="box9" rows="3"></Textarea>     
+          <div class="col-md-2"><button class="saveBtn" class="save-box" id="save9">
+            ></button>
+          </div>
+      </div>
+   <div class="row" id="10am">
+    <div class="col-md-2">
+      <h3 id="1000" class="timeOfDay">10:00am</h3>
     </div>
+  <div class="col-md-8" id="textbox-10">
+    <Textarea class="text-box" id="box10" rows="3"></Textarea>
+  </div>       
+  <div class="col-md-2"><button class="saveBtn" class="save-box" id="save10">></button></div>
+ </div>
 
+ <div class="row" id="11am">
+  <div class="col-md-2">
+    <h3 id="1100" class="timeOfDay">11:00am</h3>
+  </div>
+<div class="col-md-8" id="textbox-11">
+  <Textarea class="text-box" id="box11" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save11">></button></div>
+</div>
+
+<div class="row" id="12pm">
+<div class="col-md-2">
+  <h3 id="1200" class="timeOfDay">12:00pm</h3>
+</div>
+<div class="col-md-8" id="textbox-12">
+<Textarea class="text-box" id="box12" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save12">></button></div>
+</div>
+
+<div class="row" id="1pm">
+<div class="col-md-2">
+  <h3 id="1300" class="timeOfDay">1:00pm</h3>
+</div>
+<div class="col-md-8" id="textbox-1">
+<Textarea class="text-box" id="box1" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save1">></button></div>
+</div>
+
+<div class="row" id="2pm">
+<div class="col-md-2">
+  <h3 id="1400" class="timeOfDay">2:00pm</h3>
+</div>
+<div class="col-md-8" id="textbox-2">
+<Textarea class="text-box" id="box2" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save2">></button></div>
+</div>
+
+<div class="row" id="3pm">
+<div class="col-md-2">
+  <h3 id="1500" class="timeOfDay">3:00pm</h3>
+</div>
+<div class="col-md-8" id="textbox-3">
+<Textarea class="text-box" id="box3" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save3">></button></div>
+</div>
+
+<div class="row" id="4pm">
+<div class="col-md-2">
+  <h3 id="1600" class="timeOfDay">4:00pm</h3>
+</div>
+<div class="col-md-8" id="textbox-4">
+<Textarea class="text-box" id="box4" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save4">></button></div>
+</div>
+
+<div class="row" id="5pm">
+<div class="col-md-2">
+  <h3 id="1700" class="timeOfDay">5:00pm</h3>
+</div>
+<div class="col-md-8" id="textbox-5">
+<Textarea class="text-box" id="box5" rows="3"></Textarea>
+</div>       
+<div class="col-md-2"><button class="saveBtn" class="save-box" id="save5">></button></div>
+</div>
+
+  </div>
+      </div>
+    </container>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="dayPlanner.js"></script>
   </body>
 </html>
